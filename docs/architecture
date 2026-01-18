@@ -30,7 +30,7 @@ v
 v
 +------------------------------+
 | Sentinel Modules (Products) |
-| Watchdog | Gate | AV | Forge|
+| AGENT | Gate | AV | Forge|
 +------------------------------+
 
 
@@ -107,7 +107,7 @@ SentiNet ensures:
 Sentinel modules are separate products that interlock through LAIRS (mind) and SentiNet (fabric).
 
 +-------------------------+ +-------------------------+
-| Sentinel Watchdog | | Sentinel Gate |
+| Sentinel AGENT | | Sentinel Gate |
 |-------------------------| |-------------------------|
 | Integrity + telemetry | | Policy enforcement |
 | Anomaly detection | | Network controls |
@@ -139,7 +139,7 @@ This is the platform’s non-negotiable safety model: the system may propose act
 (Observation) -> (Analysis) -> (Proposal) -> (Approval) -> (Apply) -> (Verify)
 
 +-----------+ +----------+ +-----------+ +-----------+ +--------+
-| Watchdog | -> | LAIRS | -> | Forge | -> | Human | -> | Apply |
+| AGENT | -> | LAIRS | -> | Forge | -> | Human | -> | Apply |
 | Gate / AV | | Reasoning| | Proposal | | Master | | (reboot|
 +-----------+ +----------+ +-----------+ | Admin | | boundary|
 +-----------+ +--------+
