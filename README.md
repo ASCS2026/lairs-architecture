@@ -56,7 +56,7 @@ The platform is extended through a family of Sentinel modules that plug into bot
 
 Module	Purpose:
 
-Sentinel Watchdog:	System integrity, telemetry, and anomaly detection
+Sentinel AGENT:	System integrity, telemetry, and anomaly detection
 
 Sentinel Gate	Network: policy, and access control enforcement
 
